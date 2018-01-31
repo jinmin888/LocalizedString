@@ -1,7 +1,8 @@
-language: objective-c
+language: swift
 osx_image: xcode9.1
 script:
   - xcodebuild -scheme LocalizedString -workspace LocalizedString.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.1' build test
 after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 47cbffb0-80e1-48a4-bee5-0fddafa60b73
 
 
