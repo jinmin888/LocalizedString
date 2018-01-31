@@ -1,0 +1,6 @@
+framework module Pods_LocalizedString {
+  umbrella header "Pods-LocalizedString-umbrella.h"
+
+  export *
+  module * { export * }
+}

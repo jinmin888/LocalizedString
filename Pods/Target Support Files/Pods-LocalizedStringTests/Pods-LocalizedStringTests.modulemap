@@ -1,0 +1,6 @@
+framework module Pods_LocalizedStringTests {
+  umbrella header "Pods-LocalizedStringTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
